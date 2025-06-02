@@ -1,0 +1,48 @@
+{
+    "Ridge": {
+        "model": "Ridge",
+        "best_param": {
+            "alpha": 10.0
+        },
+        "best_score": 0.12061841894654503
+    },
+    "Lasso": {
+        "model": "Lasso",
+        "best_param": {
+            "alpha": 1.0
+        },
+        "best_score": 0.1261235299584417
+    },
+    "DecisionTreeRegressor": {
+        "model": "DecisionTreeRegressor",
+        "best_param": {
+            "max_depth": 10
+        },
+        "best_score": 0.12074447921783547
+    },
+    "RandomForestRegressor": {
+        "model": "RandomForestRegressor",
+        "best_param": {
+            "n_estimators": 30
+        },
+        "best_score": 0.1754109974864152
+    },
+        "XGBRegressor": {
+        "model": "XGBRegressor",
+        "best_param": {
+            "n_estimators": 100,
+            "learning_rate": 0.1,
+            "subsample": 0.9
+        },
+        "best_score": 0.11459833626946081
+    },
+    "LGBMRegressor": {
+        "model": "LGBMRegressor",
+        "best_param": {
+            "n_estimators": 100,
+            "learning_rate": 0.3,
+            "num_leaves": 40
+        },
+        "best_score": 0.11422533031405906
+    }
+}
